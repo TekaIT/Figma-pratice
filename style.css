@@ -4,17 +4,38 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
+.header-conteiner{
+    margin:0 248px 0 248px;
+}
 
 .header-top{
+    margin: 22px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     line-height: 22px;
-    border: 1px solid #828282;
+    border-bottom: 1px solid #828282;
     transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header-mid{
+    margin-top: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-mid__left{
+    background-color: lavender;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+.header-mid__center{
+    background-color: lightpink;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header-mid__right{
+    background-color: lightsalmon;
+    text-align: right;
+    transform: rotate(-90deg);
 }
